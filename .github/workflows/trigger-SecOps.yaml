@@ -1,0 +1,8 @@
+name: Ttigger-SecOps
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "Thik hai - Koi Preshani to nhi h Na"
